@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  vite-ts-react-ssr-express-docker:
+    container_name: vite-ts-react-ssr-express-docker
+    image: vite-ts-react-ssr-express-docker:latest
+    ports:
+      - "9999:4000"
